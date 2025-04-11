@@ -10,8 +10,7 @@ public class Main{
         
 	Scanner input = new Scanner(System.in);
       
-	String firstname;
-        String lastname;
+	
         String username;
         String password;
         String phone;
@@ -20,10 +19,7 @@ public class Main{
         System.out.println("*******************************");
         System.out.println("*********REGISTRATION**********");
         System.out.println("*******************************");
-        System.out.print("Enter First Name: ");
-	firstname = input.nextLine();
-        System.out.print("Enter Last Name: ");
-	lastname = input.nextLine();
+   
 	System.out.print("Enter Username: ");
 	username = input.nextLine();
 	System.out.print("Enter Password: ");
@@ -75,7 +71,7 @@ public class Main{
                login_password = input.nextLine();
         
                if(login_username.equals(username) && login_password.equals(password)){
-                    System.out.println("Welcome " +  firstname + ", " + lastname + " it is great to see you again.");
+                    System.out.println("Welcome  it is great to see you again.");
                }else{
                     System.out.println("Username or password incorrect please try again.");
                }
